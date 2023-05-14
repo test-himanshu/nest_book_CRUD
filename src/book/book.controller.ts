@@ -4,9 +4,7 @@ import { Book } from "./data/book.dto";
 
 @Controller("book")
 export class BookController{
-    constructor(private bookService : BookService){
-
-    }
+    constructor(private bookService : BookService){}
 
 
     @Get("/findAll")
