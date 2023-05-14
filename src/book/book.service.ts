@@ -30,7 +30,7 @@ export class BookService {
         this.books = this.books.filter((book)=>{
             return book.id != bookId;
         });
-        return `Book has boon deleted`;
+        return `Book has been deleted`;
     }
 
     //find all book
